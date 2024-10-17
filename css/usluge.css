@@ -19,7 +19,9 @@ body {
 /* Services Section Layout */
 .services {
     display: flex;
-    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Creates a responsive grid layout */
+    justify-content: center; /* Centers the grid items horizontally */
+    gap: 20px; /* Adds spacing between columns */
     flex-wrap: wrap;  
     margin: 0 auto;
     max-width: 1200px;
@@ -44,7 +46,8 @@ body {
 
 /* Service Columns Styling */
 .service-column { 
-    width: 30%;
+    text-align: left; /* Keeps ul items left-aligned inside each column */
+    margin: 0 auto; /* Centers each column itself within the grid cell */
 }
 
 .service-column h2 {
