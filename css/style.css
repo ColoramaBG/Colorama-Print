@@ -257,7 +257,7 @@ header {
     .section-one {
         height: auto; /* Allow height to adjust based on content */
         min-height: 750px; /* Ensures there is enough space */
-        padding-top: 20px; /* Adjust padding to prevent overlap */
+        padding-top: 0px; /* Adjust padding to prevent overlap */
         padding-bottom: 50px; /* Adds spacing at the bottom for better readability */
     }
 
