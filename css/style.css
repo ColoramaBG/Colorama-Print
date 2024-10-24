@@ -273,7 +273,7 @@ header {
 
     .section-one .text-content {
         margin-top: 0; /* Remove margin to avoid pushing content too far down */
-        padding-top: 10px; /* Small padding to give breathing room from the top */
+        padding-top: 0px; /* Small padding to give breathing room from the top */
         padding-bottom: 20px; /* Add padding to avoid cutting off content */
     }    
 }
