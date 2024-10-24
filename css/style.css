@@ -255,7 +255,10 @@ header {
     }
 
     .section-one {
-        height: 750px;
+        height: auto; /* Allow height to adjust based on content */
+        min-height: 750px; /* Ensures there is enough space */
+        padding-top: 50px; /* Adjust padding to prevent overlap */
+        padding-bottom: 50px; /* Adds spacing at the bottom for better readability */
     }
 
     .section-two {
@@ -267,4 +270,10 @@ header {
         font-size: 20px;
         padding: 10px;
     }
+
+    .section-one .text-content {
+        margin-top: 0; /* Remove margin to avoid pushing content too far down */
+        padding-top: 10px; /* Small padding to give breathing room from the top */
+        padding-bottom: 20px; /* Add padding to avoid cutting off content */
+    }    
 }
