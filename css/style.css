@@ -262,7 +262,9 @@ header {
     }
 
     .section-two {
-        height: 850px;
+        min-height: 850px; /* Ensure enough height for the second section */
+        padding-top: 100px; /* Add top padding to avoid overlap with section one */
+        padding-bottom: 50px; /* Bottom padding for proper spacing */
     }
 
     .section-one .text-content,
