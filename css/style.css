@@ -255,16 +255,17 @@ header {
     }
 
     .section-one {
-        height: auto; /* Allow height to adjust based on content */
-        min-height: 750px; /* Ensures there is enough space */
-        padding-top: 0px; /* Adjust padding to prevent overlap */
-        padding-bottom: 50px; /* Adds spacing at the bottom for better readability */
+        height: auto; 
+        min-height: 750px; 
+        padding-top: 0px; 
+        padding-bottom: 50px;
     }
 
     .section-two {
-        min-height: 850px; /* Ensure enough height for the second section */
-        padding-top: 100px; /* Add top padding to avoid overlap with section one */
-        padding-bottom: 50px; /* Bottom padding for proper spacing */
+        height: auto;
+        min-height: 850px; 
+        padding-top: 100px;
+        padding-bottom: 50px; 
     }
 
     .section-one .text-content,
@@ -274,14 +275,13 @@ header {
     }
 
     .section-one .text-content {
-        margin-top: 0; /* Remove margin to avoid pushing content too far down */
-        padding-top: 0px; /* Small padding to give breathing room from the top */
-        padding-bottom: 20px; /* Add padding to avoid cutting off content */
+        margin-top: 0; 
+        padding-top: 0px; 
+        padding-bottom: 20px; 
     }
 
     .section-two .text-content {
-        margin-top: 100px; /* Remove margin to avoid pushing content too far down */
-        padding-top: 0px; /* Small padding to give breathing room from the top */
-        padding-bottom: 120px; /* Add padding to avoid cutting off content */
+        padding-top: 0px; 
+        padding-bottom: 120px; 
     }
 }
