@@ -264,8 +264,8 @@ header {
     .section-two {
         height: auto;
         min-height: 850px; 
-        padding-top: 100px;
-        padding-bottom: 50px; 
+        padding-top: 30px;
+        padding-bottom: 30px; 
     }
 
     .section-one .text-content,
@@ -282,6 +282,6 @@ header {
 
     .section-two .text-content {
         padding-top: 0px; 
-        padding-bottom: 120px; 
+        padding-bottom: 20px; 
     }
 }
