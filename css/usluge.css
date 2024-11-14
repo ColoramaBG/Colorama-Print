@@ -6,6 +6,39 @@ body {
     padding: 0; 
 }
 
+.transition {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.transition-row {
+    flex: 1;
+    display: flex;
+}
+
+.transition-row.row-1 .block {
+    transform-origin: top;
+}
+
+.transition-row.row-2 .block {
+    transform-origin: bottom;
+}
+
+.block {
+    flex: 1;
+    background-color: #111;
+    transform: scaleY(1);
+    will-change: transform;
+    visibility: visible;
+}
+
 /* Portfolio Grid Styling */
 .portfolio-grid {
     display: grid;
@@ -19,9 +52,9 @@ body {
 /* Services Section Layout */
 .services {
     display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Creates a responsive grid layout */
-    justify-content: center; /* Centers the grid items horizontally */
-    gap: 20px; /* Adds spacing between columns */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    justify-content: center; 
+    gap: 20px; 
     flex-wrap: wrap;  
     margin: 0 auto;
     max-width: 1200px;
@@ -46,8 +79,8 @@ body {
 
 /* Service Columns Styling */
 .service-column { 
-    text-align: left; /* Keeps ul items left-aligned inside each column */
-    margin: 0 auto; /* Centers each column itself within the grid cell */
+    text-align: left; 
+    margin: 0 auto; 
 }
 
 .service-column h2 {
